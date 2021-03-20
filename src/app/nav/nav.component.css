@@ -1,0 +1,119 @@
+.nav {
+  height: 95%;
+  position: static;
+  width: 100%;
+}
+
+.nav .logo {
+  display: block;
+}
+
+.nav .logo img {
+  width: 13%;
+}
+
+.nav hr {
+  width: 100%;
+}
+
+.nav div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  width: 90%;
+}
+
+.nav div.scrollmenu a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 7%;
+  font-size: 1.2rem;
+  color: rgba(26, 26, 25, 0.3);
+}
+
+.nav div.scrollmenu a i {
+  margin-left: 5px;
+}
+
+.nav div.scrollmenu a:hover {
+  color: #313115;
+}
+
+.nav .conteiner1 {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: none;
+}
+
+.nav .conteiner1 .buttonsLaterales {
+  position: fixed;
+  top: 190px;
+  right: 10px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 1% 1% 1% 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 999;
+}
+
+.nav .conteiner1 .buttonsLaterales .fa {
+  font-size: 24px;
+  margin: 7% 0% 7% 0%;
+}
+
+.nav .conteiner1 .buttonsLaterales .fa-envelope {
+  color: #313115;
+}
+
+.nav .conteiner1 .buttonsLaterales .fa-arrow-circle-up {
+  position: absolute;
+  bottom: -90%;
+  color: #313115;
+}
+
+.nav .conteiner1 .buttonsLaterales .fa-home {
+  position: absolute;
+  top: -90%;
+  color: #03acac;
+}
+
+.nav .conteiner1 .buttonsLaterales button {
+  background: none;
+  outline: 0;
+  border: 0;
+  color: #d3d2d2;
+  cursor: pointer;
+}
+
+.nav .conteiner1 .buttonsLaterales button:hover {
+  color: #f8efef;
+}
+
+.nav .menuPaginaI {
+  margin-top: 2%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.nav .menuPaginaI a {
+  font-size: 1rem;
+  color: #313115;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+/*# sourceMappingURL=nav.component.css.map */

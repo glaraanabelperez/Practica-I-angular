@@ -1,0 +1,75 @@
+* {
+  font-size: 14px;
+  color: #313115;
+  font-family: "Rubik", sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 3% !important;
+}
+
+h1 {
+  font-size: 3.5rem !important;
+  color: #313115 !important;
+  padding: 10px 0px 0px 0px;
+  display: block;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.0rem !important;
+  color: #6d6d6b;
+  padding: 5px 0px 0px 0px;
+  display: block;
+  font-weight: 200;
+  margin-bottom: 3px !important;
+}
+
+h3 {
+  font-size: 0.9rem;
+  color: #313115;
+  padding: 5px 0px 0px 0px;
+  display: block;
+  font-weight: 200;
+  margin-top: 0% !important;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.circl {
+  border-radius: 100%;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+.vertical {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  font-size: 20px;
+  font-weight: 100;
+}
+
+hr {
+  margin-top: 20%;
+}
+/*# sourceMappingURL=styles.css.map */
